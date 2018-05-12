@@ -1,6 +1,6 @@
 # application
 
-> A Vue.js project
+> A Vue.js application for a layout sample
 
 ## Build Setup
 
