@@ -22,6 +22,9 @@ export default {
 </script>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 * {
   margin: 0;
   padding: 0;
@@ -32,14 +35,11 @@ body {
   height: 100%;
 }
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family:  'Roboto', Helvetica, Arial, sans-serif;
   background-color: #f6f7f8;
-  height: 100%;
   display: grid;
-  grid-template-columns: 60px 1fr;
-  grid-template-rows: 60px 1fr;
+  grid-template-columns: 60px auto;
+  grid-template-rows: 70px auto;
   grid-template-areas:
     "header header"
     "aside content";
@@ -60,11 +60,10 @@ body {
 @media (max-width: 640px) {
   #app {
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: auto 1fr;
     grid-template-areas:
-      "header"
-      "aside"
-      "content";
+      "header header"
+      "aside content";
   }
 }
 </style>

@@ -3,7 +3,6 @@
             <img src="@/assets/cvc.png">
             <menu-bar class="menu_bar"></menu-bar>
             <user class="user"></user>
-
     </header>
 </template>
 

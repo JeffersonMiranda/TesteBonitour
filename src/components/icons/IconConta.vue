@@ -1,11 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<template>
+    <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#808080;}
-	.st0:hover{fill:red}
-</style>
+
 <path class="st0" d="M96.1,30.5c-2.5-6-6.1-11.3-10.7-15.9c-4.6-4.6-9.9-8.2-15.9-10.7C63.3,1.3,56.7,0,50,0S36.7,1.3,30.5,3.9
 	c-6,2.5-11.3,6.1-15.9,10.7c-4.6,4.6-8.2,9.9-10.7,15.9C1.3,36.7,0,43.3,0,50c0,6.7,1.3,13.3,3.9,19.5c2.5,6,6.1,11.3,10.7,15.9
 	c4.6,4.6,9.9,8.2,15.9,10.7c6.2,2.6,12.7,3.9,19.5,3.9c6.8,0,13.3-1.3,19.5-3.9c6-2.5,11.3-6.1,15.9-10.7c4.6-4.6,8.2-9.9,10.7-15.9
@@ -15,3 +11,10 @@
 	c0-13-10.6-23.5-23.5-23.5S26,35.1,26,48.1c0,8.6,4.6,16.3,12,20.5c-3.9,1.3-7.5,3.1-10.8,5.5c-3.3,2.4-6.2,5.2-8.6,8.5
 	C9.7,74,4.8,62.4,4.8,50C4.8,25.1,25.1,4.8,50,4.8S95.2,25.1,95.2,50C95.2,62.2,90.4,73.6,81.7,82.2z"/>
 </svg>
+</template>
+
+<style scoped>
+.st0 {
+  fill: #808080;
+}
+</style>
